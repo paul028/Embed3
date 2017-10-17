@@ -1,0 +1,186 @@
+.button__badge {
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+ 
+  padding: 1px 3px;
+  font-size: 10px;
+  
+  position: absolute; /* Position the badge within the relatively positioned button */
+  top: 0;
+  right: 0;
+}
+.button {
+  color: white;
+  display: inline-block; /* Inline elements with width and height. TL;DR they make the icon buttons stack from left-to-right instead of top-to-bottom */
+  position: relative; /* All 'absolute'ly positioned elements are relative to this one */
+  padding: 2px 5px; /* Add some padding so it looks nice */
+}
+a.active {
+font-color: red;
+}
+.modal-dialog {
+  width: 90%;
+  height: 90%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.col-center{
+  margin:0 auto;
+}
+
+.center-block {float: none !important}
+
+body {
+      width: 100%;
+      height: 100%;
+	  padding-top: 70px; 
+    }
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.modal-content, .form-control, .btn{
+  border-radius: 3px;
+}
+label{
+  font-weight: 400;
+  font-size: 16px;
+}
+.form-control{
+  height: 42px;
+  font-size: 17px;
+}
+.form-control:focus {
+  z-index: 2;
+}
+.alert{
+    border-radius: 3px;
+}
+/* login form css */
+#login_form {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+#login_form .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#login_form input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#login_form input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#display_error{
+	display: none;
+}
+
+#home.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background: url('img/home.jpg') 80% 0 repeat-y fixed;
+  width: 1200px;
+  height: 800px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+#home {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  text-align: center;
+  color:#000;
+}
+
+#home .btn-danger {
+  background: #cccccc!important;
+  margin-right: 20px;
+}
+
+#home .btn-danger:hover {
+  background: #c4ff00 !important;
+}
+
+#home .btn {
+
+  background: #00ff00;
+  border-color: transparent;
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 14px 52px;
+  margin-top: 40px;
+  transition: all 0.4s ease-in-out;
+}
+
+#home .btn:hover {
+  background: #000000;
+  color: #FFF
+}
+
+.parallax-section {
+  	background-attachment: fixed !important;
+  	background-size: cover !important;
+}
+
+.dropdown-menu > li > a {
+    color: #FFF;
+}
+
+input[type=text],input[type=password] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 12px 12px 12px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus,input[type=password]:focus {
+    width: 100%;
+}
+
