@@ -10,3 +10,6 @@ This repository contains the source code of the Data Acquisition Device powered 
 <br> Technological Institute of the Philippines, Quezon City Class of 2018
 
 
+# Self-Sustained Data Acquisition and Prediction System for Freshwater Aquaculture
+[Web Dashboard](https://github.com/paul028/Embed3/tree/master/DataAquisitionSystem/DAQ)
+
